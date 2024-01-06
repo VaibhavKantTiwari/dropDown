@@ -1,0 +1,14 @@
+/* designed the body of the dropdown */
+.main-box{
+  margin-left: 20vw;
+  margin-top: 12vh;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  height: 500px;
+  width: 800px;
+  user-select: none;
+  border-radius: 10px;
+}

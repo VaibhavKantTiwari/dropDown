@@ -1,0 +1,63 @@
+.heading{
+    height: 15%;
+    display: grid;
+    place-items: center;
+
+}
+
+
+/* desined the select bar */
+.select-bar{
+    height: 70px;
+    width: 270px;
+    border-radius: 10px;
+    margin-left: -80px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    /* margin-bottom: -14px; */
+
+}
+/* designed the dropdown items */
+.dropdown-items{
+    height: 50px;
+    width: 310px;
+    background-color: aliceblue;
+    display: flex;
+    margin-left: -80px;
+    flex-direction: column;
+    padding-left: 40px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+/* the arrow which shows on hovering */
+.arrow{
+    font-size: 55px;
+    font-weight: bolder;
+    height: 30px;
+    width: 35px;
+    font-stretch: extra-expanded;
+    line-height: 0.90;
+    display: inline-block;
+    transform: rotate(180deg);
+    
+}
+/* space between the select and list  */
+.flat{
+    font-size: 80px;
+    font-weight: 10;
+    margin-bottom: 10px;
+}
+.middlearea{
+    height: 20px;
+    width: 100%;
+    background-color:aqua;
+
+}
